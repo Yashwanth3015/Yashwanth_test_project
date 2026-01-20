@@ -18,7 +18,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t python-flask-app:1.0 .'
+                bat 'docker build -t python-flask-app:2.0 .'
             }
         }
 
@@ -31,3 +31,4 @@ pipeline {
         }
     }
 }
+
